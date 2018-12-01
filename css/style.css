@@ -1,0 +1,154 @@
+/*============ start main rules===========*/
+
+body{height:4000px;}
+
+.container{
+	width:1170px;
+	margin:auto;
+}
+/*============ start Header===========*/
+
+.header .navbar{
+	overflow:hidden;
+	background-color:#fff;
+	padding-bottom:0;
+	margin-top:0;
+
+}
+.header .navbar h1{
+	float:left;
+	color:black;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.header .navbar h1 span{color:#01d6e4;}
+.header .navbar ul{
+	list-style:none;
+	padding-left:0;
+	overflow:hidden;
+	float:right;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+.header .navbar ul li{
+float:left;
+padding:10px;
+}
+.header .navbar ul li a{
+	text-decoration: none;
+	color:#666;
+}
+.header .navbar ul li.active a,
+.header .navbar ul li a:hover {color:#01d6e4;border:1px solid #01d6e4 ;}
+
+.header .slider{
+	background-image:url("../images/images1.jpg");
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+    height:600px;
+}
+.header .slider h1{
+	color:white;
+	float:left;
+	font-size:50px;
+	margin-top:450px;
+	margin-left:20px;
+}
+
+/*============ start features===========*/
+
+.features{
+	overflow:hidden;
+	padding-top:100px;
+	
+}
+.features h1{color:#01d6e4 ; text-align:center;}
+.features .feat{
+	width:33.33333%;
+	float:left;
+    padding-top:50px;
+	
+	
+
+}
+.features .feat h3{text-align:center;}
+.features .feat img{width:90%; margin:10px; box-shadow:10px 10px 12px #ccc; border:1px solid #01d6e4 ;}
+
+
+/*============ start about===========*/
+
+.about{overflow:hidden;padding-top:120px;}
+.about .image{width:50%; float:left;}
+.about .inf{width:50%;float:left;background-color:#01d6e4;height:500px;}
+.about .inf h1{padding-left:50px;color:#fff;padding-bottom:20px;}
+.about .inf h2{padding-left:70px;color:#fff;}
+.about .inf p{padding-left:80px;padding-bottom:10px;color:#fff;line-height: 1.6}
+
+/*============ start doctors  ===========*/
+
+.doctors{	
+	padding-top:100px;
+	padding-bottom:70px;
+	text-align:center;
+	overflow: hidden }
+.doctors h1{text-align:center;color:#01d6e4;padding-bottom:20px;}
+.doctors p{ color:#666; line-height: 1.6}
+.doctors .doctor{padding-top:50px;}
+.doctors .doctor .doc{width:33.33333%;float:left;text-align:center;padding-top:50px;}
+.doctors .doctor .doc img{width:50%;border:solid 1px #01d6e4;}
+
+
+
+/*============ start contact  ===========*/
+
+.contact{overflow:hidden;background-color:#252f31;}
+.contact .info{
+	float:left;
+	width:50%;
+    
+}
+.contact .info p{color:#888;line-height: 1.6 }
+.contact .info h2{color:#fff;}
+.contact .info strong{color:white;}
+
+.contact .form{float:right;width:45%; padding-bottom:20px;padding-top:30px;}
+
+.contact .form{display:block;color:white;}
+.contact .form label{display:block;color:#fff;margin-bottom:10px;}
+
+.contact .form input[type="text"] {
+	background-color:#4b5557;
+	color:#fff;
+	padding:10px;
+	border: 0;
+	width:80%;
+	margin-bottom: 20px;
+}
+.contact .form textarea{
+	background-color:#4b5557;
+	color:#fff;
+	padding:10px;
+	border: 0;
+	width:80%;
+	margin-bottom: 20px;
+	height:300px
+}
+
+.contact .form input[type="submit"]{
+	background-color:#191E22;
+	color:#fff;
+	padding:10px 20px;
+	border:0;
+
+} 
+
+
+
+/*============ start footer ===========*/
+
+
+.footer{background-color: #4b5557;overflow: hidden;padding:20px 0;text-align:center;}
+.footer ul{list-style: none;}
+.footer ul li{display: inline-block;}
